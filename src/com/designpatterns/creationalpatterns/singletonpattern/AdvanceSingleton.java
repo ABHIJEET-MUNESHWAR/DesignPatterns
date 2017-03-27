@@ -11,6 +11,7 @@ public class AdvanceSingleton {
 
     /**
      * To avoid creation of new instance on reflection
+     *
      * @throws IllegalStateException
      */
     private AdvanceSingleton() throws IllegalStateException {
@@ -21,6 +22,7 @@ public class AdvanceSingleton {
 
     /**
      * To avoid creation of new instance on serialization
+     *
      * @return
      */
     protected Object readResolve() {
