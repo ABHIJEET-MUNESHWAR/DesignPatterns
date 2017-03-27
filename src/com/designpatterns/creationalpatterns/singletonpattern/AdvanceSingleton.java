@@ -29,6 +29,11 @@ public class AdvanceSingleton {
         return getInstance();
     }
 
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        throw new CloneNotSupportedException("Clone is not allowed");
+    }
+
     public static AdvanceSingleton getInstance() {
         if (instance == null) {
             synchronized (AdvanceSingleton.class) {
