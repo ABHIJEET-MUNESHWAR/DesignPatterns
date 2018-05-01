@@ -1,4 +1,4 @@
-package com.designpatterns.creationalpatterns.factorymethodpattern;
+package com.designpatterns.creationalpatterns.factorymethodpattern.plandemo;
 
 /**
  * Created using IntelliJ IDEA.
