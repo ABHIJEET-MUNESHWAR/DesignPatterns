@@ -7,7 +7,7 @@ package com.designpatterns.creationalpatterns.singletonpattern;
  * Time: 11:13 PM
  */
 public class AdvanceSingleton {
-    private static AdvanceSingleton instance = null;
+    private static volatile AdvanceSingleton instance = null;
 
     /**
      * To avoid creation of new instance on reflection
