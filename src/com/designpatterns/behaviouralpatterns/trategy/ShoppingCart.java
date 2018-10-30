@@ -14,7 +14,7 @@ public class ShoppingCart {
   private List<Item> items;
 
   public ShoppingCart() {
-    this.items = new ArrayList<>(items);
+    this.items = new ArrayList<Item>();
   }
 
   public void addItem(Item item) {
