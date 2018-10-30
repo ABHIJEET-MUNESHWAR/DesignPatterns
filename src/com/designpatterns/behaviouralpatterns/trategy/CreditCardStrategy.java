@@ -1,0 +1,27 @@
+package com.designpatterns.behaviouralpatterns.trategy;
+
+/**
+ * Created using IntelliJ IDEA.
+ * Author:  abhijeetashokmuneshwar,
+ * Date:    30/10/18,
+ * Time:    12:01 PM
+ */
+public class CreditCardStrategy implements PaymentStrategy {
+
+  private String name;
+  private String cardNumber;
+  private String cvv;
+  private String dateOfExpiry;
+
+  public CreditCardStrategy(String name, String cardNumber, String cvv, String dateOfExpiry) {
+    this.name = name;
+    this.cardNumber = cardNumber;
+    this.cvv = cvv;
+    this.dateOfExpiry = dateOfExpiry;
+  }
+
+  @Override
+  public void pay(Integer amount) {
+    System.out.println(amount + " paid through credit/debit card.");
+  }
+}
