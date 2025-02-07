@@ -1,4 +1,4 @@
-package com.designpatterns.behaviouralpatterns.strategy;
+package com.designpatterns.behaviouralpatterns.strategy.socialmedia;
 
 /**
  * Created by abhijeet on 27/02/20 at 4:11 PM using IntelliJ IDEA.
